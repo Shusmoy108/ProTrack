@@ -116,12 +116,12 @@ class Project extends Component {
                                 <Tooltip title='Print Project'>
 
                                     <Button
-                                        // onClick={() => {
-                                        //     window.print();
-                                        // }}
+                                        onClick={() => {
+                                            window.print();
+                                        }}
                                         color='primary'
                                         variant='outlined'
-                                        onClick={this.printDocument}
+                                        // onClick={this.printDocument}
                                         style={{ marginLeft: "5%" }}
                                     >
                                         <PrintIcon />
