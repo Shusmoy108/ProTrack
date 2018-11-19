@@ -1,0 +1,99 @@
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.itemClass {
+    display: flex;
+    justify-content: center;
+    align-content: center
+}
+
+
+.topBorder {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 2% 10%;
+    border-bottom: ridge
+}
+
+
+.button {
+    display: flex; 
+    justify-content: center; 
+    align-items: center
+}
+
+
+.print {
+    display: flex;
+     margin: 1% 5%;
+      flex: 1;
+       justify-content: flex-end;
+        align-items: flex-end
+}
+
+
+.stepStyle {
+    margin: 0 5%;
+     display: flex;
+      flex-wrap: wrap;
+       justify-content: center
+}
+
+
+.label {
+    margin: 2% 0%
+}
+
+
+.input {
+    margin: 2% 5%
+}
+
+
+.dektopColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-end
+}
+
+
+.dektopInput {
+    display: flex;
+    flex-direction: column;
+     flex: 1
+}
+
+
+.mainStyle {
+    margin: "0% 30%",
+    
+}
+
+.border{
+    display: flex; 
+    width: 50%;
+     margin: 1% 20%;
+     border-bottom: ridge; 
+    justify-content: center; 
+    align-items: center
+    
+}
+
+.borderMobile {
+    display: none;
+    
+}
