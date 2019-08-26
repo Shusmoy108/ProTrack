@@ -1,0 +1,31 @@
+Terminal one:
+
+cd client
+
+npm i --save
+
+npm start
+
+Trminal two:
+
+cd server
+
+npm i --save
+
+npm start
+
+
+Features:
+
+1. Two types of users
+	i. Admin
+	ii. Manager
+2. Only admin can create a project -type. he can design his project with different steps and specifiacations. THe project types,steps, and specifiaction will be saved.
+3. Manager and admin both can create project. but manager can't design the project structure.
+4. three types of project. Running project, Pending Project, and project history.
+
+
+
+For First time
+root user= "protrack";
+password = "1234";

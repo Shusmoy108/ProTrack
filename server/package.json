@@ -1,7 +1,7 @@
 {
-  "name": "meetingManager",
+  "name": "ProTrack",
   "version": "1.0.0",
-  "description": "We print your imagination",
+  "description": "Track your Projects Easily",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
