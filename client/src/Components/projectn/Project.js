@@ -4,8 +4,6 @@ import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Header from "../Header/Header";
 import { Checkbox, InputLabel, Button } from "@material-ui/core";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
 import Tooltip from '@material-ui/core/Tooltip'
 import { updateProjectProgress } from "../../Utils/projectAxios";
 import PrintIcon from "@material-ui/icons/Print";

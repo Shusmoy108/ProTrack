@@ -227,7 +227,7 @@ class ProductBody extends Component {
                     className={classes.topBorder}
                 >
                     <div style={{ margin: '1% 5%', flex: 1 }}>
-                        Product-List
+                        Project-Types
                         </div>
                     {this.state.task === -1 && (<div className={classes.print}>
 

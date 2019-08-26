@@ -145,7 +145,7 @@ class MenuAppBar extends React.Component {
                                         onClose={this.handleClose}
                                     >
                                         <MenuItem style={style[5]} onClick={() => this.handleMenuChange("product")}>
-                                            <SendIcon />{" "} Products</MenuItem>
+                                            <SendIcon />{" "} Project Types</MenuItem>
                                         <MenuItem style={style[6]} onClick={() => this.handleMenuChange("step")}>
                                             <SendIcon />{" "} Steps</MenuItem>
                                         <MenuItem style={style[7]} onClick={() => this.handleMenuChange("specification")}>
